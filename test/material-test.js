@@ -29,7 +29,7 @@ describe("Material", function() {
     assert.equal(usedFabric, `You now have 1 yards of fabric left.`)
   })
 
-  it.skip('should be able to use a different material', function() {
+  it('should be able to use a different material', function() {
     var thread = new Material('thread', .25, 8, 'spools');
 
     assert.equal(thread.amount, 8);

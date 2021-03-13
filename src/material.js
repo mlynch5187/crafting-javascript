@@ -8,7 +8,7 @@ class Material  {
 
   useMaterial(amount) {
     this.amount -= amount
-    return `You now have ${this.amount} yards of fabric left.`
+    return `You now have ${this.amount} ${this.units} of ${this.name} left.`    
   }
 }
 
