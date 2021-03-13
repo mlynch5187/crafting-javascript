@@ -5,6 +5,11 @@ class Material  {
     this.amount = amount;
     this.units = units;
   }
+
+  useMaterial(amount) {
+    this.amount -= amount
+    return `You now have ${this.amount} yards of fabric left.`
+  }
 }
 
 module.exports = Material;
