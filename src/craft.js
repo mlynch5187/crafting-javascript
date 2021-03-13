@@ -3,6 +3,7 @@ class Craft {
     obj = obj || {};
     this.name = obj.type;
     this.materials = obj.materials;
+    this.completed = false;
   }
 }
 
