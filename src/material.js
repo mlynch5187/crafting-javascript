@@ -14,6 +14,10 @@ class Material  {
       return `You don\'t have enough ${this.name}! Try using ${this.amount} ${this.units} or less.`
     }
   }
+
+  calculateMaterialCost() {
+    return this.price * this.amount
+  }
 }
 
 module.exports = Material;
