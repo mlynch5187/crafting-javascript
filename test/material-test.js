@@ -40,7 +40,7 @@ describe("Material", function() {
     assert.equal(usedThread, `You now have 2 spools of thread left.`)
   })
 
-  it.skip('should not be able to use more material than available', function() {
+  it('should not be able to use more material than available', function() {
     var paint = new Material('acrylic paint', 5, 7, 'bottles');
     var canvas = new Material('canvas', 15, 2, 'sheets');
 
